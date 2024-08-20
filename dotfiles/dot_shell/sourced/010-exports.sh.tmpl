@@ -20,6 +20,6 @@ export VALENTINA_AWS_ACCESS_KEY_ID="{{- range (onepassword "oktogknogbneoifxxtne
 export VALENTINA_AWS_SECRET_ACCESS_KEY="{{- range (onepassword "oktogknogbneoifxxtnefno2cu").fields }}{{- if eq .label "VALENTINA_AWS_SECRET_ACCESS_KEY" }}{{- .value }}{{- end }}{{- end }}"
 export VALENTINA_S3_BUCKET_NAME="{{- range (onepassword "oktogknogbneoifxxtnefno2cu").fields }}{{- if eq .label "VALENTINA_S3_BUCKET_NAME" }}{{- .value }}{{- end }}{{- end }}"
 export VALENTINA_GITHUB_TOKEN="{{- range (onepassword "oktogknogbneoifxxtnefno2cu").fields }}{{- if eq .label "VALENTINA_GITHUB_TOKEN" }}{{- .value }}{{- end }}{{- end }}"
-export VALENTINA_GITHUB_REPO="natelandau/valentina"
+export VALENTINA_GITHUB_REPO="topcatse/valentina"
 
 {{- end }}
