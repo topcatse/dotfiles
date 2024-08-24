@@ -63,7 +63,7 @@ jobs:
                   mkdir -p ${homedir}/.config/chezmoi
                   echo '[data]' > ${homedir}/.config/chezmoi/chezmoi.toml
                   echo '    email        = "test@test.com"' >> ${homedir}/.config/chezmoi/chezmoi.toml
-                  echo '    github_user  = "natelandau"' >> ${homedir}/.config/chezmoi/chezmoi.toml
+                  echo '    github_user  = "topcatse"' >> ${homedir}/.config/chezmoi/chezmoi.toml
                   echo '    home_network = false' >> ${homedir}/.config/chezmoi/chezmoi.toml
                   echo '    use_secrets  = false' >> ${homedir}/.config/chezmoi/chezmoi.toml
 

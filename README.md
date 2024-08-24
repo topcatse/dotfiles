@@ -8,7 +8,7 @@ Dotfiles, managed with [Chezmoi](https://www.chezmoi.io/).
 -   ssh configuration and key management with 1Password
 -   OSX defaults management
 -   Custom [vscode](https://code.visualstudio.com/) theme
--   Configuration for my CLI scripts [halp](https://github.com/natelandau/halp),[vid-cleaner](https://github.com/natelandau/vid-cleaner), [jdfile](https://github.com/natelandau/jdfile), and [brewup](https://github.com/natelandau/brewup)
+-   Configuration for my CLI scripts [halp](https://github.com/topcatse/halp),[vid-cleaner](https://github.com/topcatse/vid-cleaner), [jdfile](https://github.com/topcatse/jdfile), and [brewup](https://github.com/topcatse/brewup)
 -   and more...
 
 ## Install
@@ -19,7 +19,7 @@ Dotfiles, managed with [Chezmoi](https://www.chezmoi.io/).
 **Ensure required software is installed before proceeding.** There are many ways to install Chezmoi. Check the [official documentation](https://www.chezmoi.io/install/) for the most up-to-date instructions. To install chezmoi and these dotfiles in a single command run the following:
 
 ```bash
-sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply natelandau
+sh -c "$(curl -fsLS get.chezmoi.io)" -- init --apply topcatse
 ```
 
 ## Daily Usage
@@ -28,7 +28,7 @@ After Chezmoi is installed, use the following commands.
 
 ```bash
 # Initialize chezmoi configuration and apply the dotfiles (first run)
-chezmoi init natelandau
+chezmoi init topcatse
 
 # Check for common problems.
 chezmoi doctor
