@@ -1,0 +1,13 @@
+# Create a new key with:
+# ssh-keygen -f [filename] -t ed25519 -C "[comment]"
+# ssh-keygen -f [filename] -t rsa -b 4096 -C "[comment]"
+
+# ##### End Chezmoi Managed #############
+
+Host *
+	IdentityFile ~/.ssh/id_ed25519
+	ServerAliveInterval 30
+	ServerAliveCountMax 120
+	StrictHostKeyChecking no
+	Protocol 2
+	IdentitiesOnly yes
