@@ -180,14 +180,3 @@
     smudge = git-lfs smudge -- %f
     process = git-lfs filter-process
 
-# Configured for git-credential-manager
-# https://github.com/git-ecosystem/git-credential-manager
-[credential]
-    helper =
-    helper = /usr/local/share/gcm-core/git-credential-manager
-{{- if ne .chezmoi.os "darwin" }}
-    credentialStore = cache
-    guiPrompt = false
-{{- end }}
-[credential "https://dev.azure.com"]
-    useHttpPath = true
